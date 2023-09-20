@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Mooli', sans-serif;   
+}
+
+
+body {
+    background-color: rgb(188, 215, 237);
+    /* background-color: rgb(228, 228, 228); */
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 25px;
+}
+.app-title {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.balance {
+    display: flex;
+    padding: 25px;
+    background-color: rgb(212, 228, 240);
+    border-radius: 2px;
+}
+.balance-wrapper:first-child {
+    border-right: 2px solid rgb(195, 195, 195);
+}
+.balance-wrapper {
+    display: grid;
+    gap: 10px;
+    padding: 1px 25px;
+}
+.balance-amount {
+    color: rgb(28, 130, 28);
+    font-family: 700;
+}
+
+
+.add-transition {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.add-btn {
+    padding: 8px 28px;
+    background-color: rgb(49, 180, 49);
+    color: white;
+    font-weight: 700;
+    border: 1px rgb(49, 180, 49) solid;
+    border-radius: 5px;
+
+    transition: all .3s linear;
+}
+.add-btn:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+
+
+.history-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.table {
+    width: 100%;
+}
+.th {
+    background-color: rgb(49, 180, 49);
+    color: white;
+    padding: 2px 45px;
+}
